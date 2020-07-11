@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UserConfig>
+    <User type="Admin"       name="管理员"  value="10"  hash=""/>
+    <User type="Engineer"    name="工程师"  value="6"  hash=""/>
+    <User type="Technician" name="技术员"  value="2" hash=""/>
+    <User type="Operator"   name="操作员"  value="0"   hash=""/>
+</UserConfig>

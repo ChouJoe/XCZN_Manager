@@ -1,0 +1,92 @@
+C:\Users\hp\Desktop\xuriProject\xuchengzhineng\bin\Debug\xuchengzhineng.exe.config
+C:\Users\hp\Desktop\xuriProject\xuchengzhineng\bin\Debug\xuchengzhineng.exe
+C:\Users\hp\Desktop\xuriProject\xuchengzhineng\bin\Debug\xuchengzhineng.pdb
+C:\Users\hp\Desktop\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.MainForm.resources
+C:\Users\hp\Desktop\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.Properties.Resources.resources
+C:\Users\hp\Desktop\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.csproj.GenerateResource.Cache
+C:\Users\hp\Desktop\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.exe
+C:\Users\hp\Desktop\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.pdb
+C:\Users\hp\Desktop\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.userControl.labelPanel.resources
+C:\Users\hp\Desktop\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.userControl.panelplus.resources
+C:\Users\hp\Desktop\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.Auth.loginForm.resources
+C:\Users\hp\Desktop\xuriProject\xuchengzhineng\bin\Debug\ZedGraph.dll
+D:\xuriProject\xuchengzhineng\bin\Debug\xuchengzhineng.exe.config
+D:\xuriProject\xuchengzhineng\bin\Debug\xuchengzhineng.exe
+D:\xuriProject\xuchengzhineng\bin\Debug\xuchengzhineng.pdb
+D:\xuriProject\xuchengzhineng\bin\Debug\ZedGraph.dll
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.Auth.loginForm.resources
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.MainForm.resources
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.Properties.Resources.resources
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.userControl.labelPanel.resources
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.userControl.panelplus.resources
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.csproj.GenerateResource.Cache
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.csproj.CoreCompileInputs.cache
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.exe
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.pdb
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.userControl.led.resources
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.csprojResolveAssemblyReference.cache
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.configuration.configForm.resources
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.configuration.waiting.resources
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.Dialog.monitorDiag.resources
+D:\xuriProject\xuchengzhineng\bin\Debug\opcua_s7_1500_client.dll
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.Dialog.ParamSetDialog.resources
+D:\xuriProject\xuchengzhineng\obj\Debug\xuchengzhineng.Dialog.SelectParamDialog.resources
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\bin\Debug\xuchengzhineng.exe.config
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\bin\Debug\xuchengzhineng.exe
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\bin\Debug\xuchengzhineng.pdb
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\bin\Debug\opcua_s7_1500_client.dll
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\bin\Debug\ZedGraph.dll
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.csprojAssemblyReference.cache
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.Auth.loginForm.resources
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.configuration.configForm.resources
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.configuration.Waiting.resources
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.Dialog.monitorDiag.resources
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.Dialog.ParamSetDialog.resources
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.Dialog.SelectParamDialog.resources
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.MainForm.resources
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.Properties.Resources.resources
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.userControl.labelPanel.resources
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.userControl.led.resources
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.userControl.panelplus.resources
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.csproj.GenerateResource.cache
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.csproj.CoreCompileInputs.cache
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.csproj.CopyComplete
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.exe
+C:\Users\lichun xia\Documents\WeChat Files\xiali144439\FileStorage\File\2020-06\xuchengzhineng\obj\Debug\xuchengzhineng.pdb
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\xuchengzhineng.exe.config
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\xuchengzhineng.exe
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\xuchengzhineng.pdb
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\opcua_s7_1500_client.dll
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\ZedGraph.dll
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.csprojResolveAssemblyReference.cache
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Auth.loginForm.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.configuration.configForm.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.configuration.Waiting.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Dialog.monitorDiag.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Dialog.ParamSetDialog.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Dialog.SelectParamDialog.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.MainForm.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Properties.Resources.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.userControl.labelPanel.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.userControl.led.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.userControl.panelplus.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.csproj.GenerateResource.Cache
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.csproj.CoreCompileInputs.cache
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.exe
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.pdb
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Dialog.SaveFile_Dialog.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.userControl.panelBackground.resources
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\HZH_Controls.dll
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\HZH_Controls.pdb
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\LiveCharts.dll
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\LiveCharts.WinForms.dll
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\LiveCharts.Wpf.dll
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\LiveCharts.pdb
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\LiveCharts.xml
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\LiveCharts.WinForms.pdb
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\LiveCharts.WinForms.xml
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\LiveCharts.Wpf.pdb
+D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\LiveCharts.Wpf.xml
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.userControl.mapLocation.resources

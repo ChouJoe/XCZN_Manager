@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{901F3C39-F5FD-4D45-AC96-26FC98D2C62D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>xuchengzhineng</RootNamespace>
+    <AssemblyName>xuchengzhineng</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HZH_Controls">
+      <HintPath>..\NetWinformControl-master\HZH_Controls\HZH_Controls\bin\Debug\HZH_Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts">
+      <HintPath>..\NetWinformControl-master\HZH_Controls\Test\bin\Debug\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms">
+      <HintPath>..\NetWinformControl-master\HZH_Controls\Test\bin\Debug\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf">
+      <HintPath>..\NetWinformControl-master\HZH_Controls\Test\bin\Debug\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="opcua_s7_1500_client">
+      <HintPath>DllSource\opcua_s7_1500_client.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DllSource\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auth\AuthControl.cs" />
+    <Compile Include="Auth\loginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auth\loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="configuration\configForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="configuration\configForm.Designer.cs">
+      <DependentUpon>configForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="configuration\configLoader.cs" />
+    <Compile Include="configuration\AssemblyLineManager.cs" />
+    <Compile Include="configuration\ParamInfo.cs" />
+    <Compile Include="configuration\ParamInfoList.cs" />
+    <Compile Include="configuration\VarInfo.cs" />
+    <Compile Include="configuration\VarInfoList.cs" />
+    <Compile Include="configuration\waiting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="configuration\waiting.Designer.cs">
+      <DependentUpon>waiting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connection\connectManager.cs" />
+    <Compile Include="controlExtensions.cs" />
+    <Compile Include="Dialog\monitorDiag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\monitorDiag.Designer.cs">
+      <DependentUpon>monitorDiag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\ParamSetDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\ParamSetDialog.Designer.cs">
+      <DependentUpon>ParamSetDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\ParamTableSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\ParamTableSelectForm.Designer.cs">
+      <DependentUpon>ParamTableSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\SaveFile_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\SaveFile_Dialog.Designer.cs">
+      <DependentUpon>SaveFile_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventHandler.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="tabsWork\ConfigTab.cs" />
+    <Compile Include="tabsWork\ConfigTab1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tabsWork\VariableTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userControl\labelPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControl\labelPanel.Designer.cs">
+      <DependentUpon>labelPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userControl\led.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControl\led.Designer.cs">
+      <DependentUpon>led.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userControl\mapLocation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControl\mapLocation.Designer.cs">
+      <DependentUpon>mapLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userControl\panelBackground.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControl\panelBackground.Designer.cs">
+      <DependentUpon>panelBackground.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userControl\panelplus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControl\panelplus.Designer.cs">
+      <DependentUpon>panelplus.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Auth\loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="configuration\configForm.resx">
+      <DependentUpon>configForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="configuration\waiting.resx">
+      <DependentUpon>waiting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\monitorDiag.resx">
+      <DependentUpon>monitorDiag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\ParamSetDialog.resx">
+      <DependentUpon>ParamSetDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\ParamTableSelectForm.resx">
+      <DependentUpon>ParamTableSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\SaveFile_Dialog.resx">
+      <DependentUpon>SaveFile_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userControl\labelPanel.resx">
+      <DependentUpon>labelPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userControl\led.resx">
+      <DependentUpon>led.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userControl\mapLocation.resx">
+      <DependentUpon>mapLocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userControl\panelBackground.resx">
+      <DependentUpon>panelBackground.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userControl\panelplus.resx">
+      <DependentUpon>panelplus.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout2.pnj.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout2.png.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factory.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-led-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray-led.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-led-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-led-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-led-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow-led-off.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow-led-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow-led-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fac.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\firmwareFiles\images\productConfig1.png" />
+    <Content Include="ConfigFile\auth.xml" />
+    <None Include="Resources\关机 %281%29.png" />
+    <None Include="Resources\connect_device__1_.png" />
+    <None Include="Resources\config %281%29.png" />
+    <None Include="Resources\关机.png" />
+    <None Include="Resources\loginu.png" />
+    <None Include="Resources\disconnect device.png" />
+    <None Include="Resources\connect device.png" />
+    <None Include="Resources\config.png" />
+    <None Include="Resources\lg1.png" />
+    <None Include="Resources\lb1.png" />
+    <None Include="Resources\lg.png" />
+    <None Include="Resources\lb.png" />
+    <None Include="Resources\location-selected.png" />
+    <None Include="Resources\location.png" />
+    <None Include="Resources\yellow-off-max.png" />
+    <None Include="Resources\red-off-max.png" />
+    <None Include="Resources\green-off-max.png" />
+    <None Include="Resources\green-on.png" />
+    <None Include="Resources\green-off.png" />
+    <None Include="Resources\yellow-on.png" />
+    <None Include="Resources\yellow-off.png" />
+    <None Include="Resources\red-on.png" />
+    <None Include="Resources\red-off.png" />
+    <None Include="Resources\blue-on.png" />
+    <None Include="Resources\blue-off.png" />
+    <None Include="Resources\map.png" />
+    <None Include="Resources\1594048231.jpg" />
+    <None Include="Resources\TOP.png" />
+    <None Include="Resources\1593958119%281%29.png" />
+    <None Include="Resources\icon-searched.png" />
+    <None Include="Resources\icon-search-selected.png" />
+    <None Include="Resources\icon-Maintenance-selected.png" />
+    <None Include="Resources\icon-security_camera-selected.png" />
+    <None Include="Resources\icon-search-search.png" />
+    <None Include="Resources\icon-search.png" />
+    <None Include="Resources\icon-replay-selected.png" />
+    <None Include="Resources\icon-replay.png" />
+    <None Include="Resources\icon-Maintenance.png" />
+    <None Include="Resources\icon-security_camera.png" />
+    <None Include="Resources\erase.png" />
+    <None Include="Resources\1593697615%281%29.png" />
+    <None Include="Resources\1593915980%281%29.png" />
+    <None Include="Resources\tabcontrol.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\import.png" />
+    <None Include="Resources\remove.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\disconnect1.png" />
+    <None Include="Resources\connect1.png" />
+    <None Include="Resources\disconnect %282%29.png" />
+    <None Include="Resources\disconnect.png" />
+    <None Include="Resources\connect.png" />
+    <None Include="Resources\setting1.png" />
+    <None Include="Resources\setting.PNG" />
+    <None Include="Resources\setting.PNG.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>mkdir $(TargetDir)\ConfigFile
+mkdir $(TargetDir)\Data\ParamFile
+copy /y "$(ProjectDir)ConfigFile\auth.xml" "$(TargetDir)ConfigFile\</PostBuildEvent>
+  </PropertyGroup>
+</Project>

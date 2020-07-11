@@ -1,0 +1,17 @@
+D:\xuriProject\xuchengzhineng\bin\Release\xuchengzhineng.exe.config
+D:\xuriProject\xuchengzhineng\bin\Release\xuchengzhineng.exe
+D:\xuriProject\xuchengzhineng\bin\Release\xuchengzhineng.pdb
+D:\xuriProject\xuchengzhineng\bin\Release\ZedGraph.dll
+D:\xuriProject\xuchengzhineng\obj\Release\xuchengzhineng.Auth.loginForm.resources
+D:\xuriProject\xuchengzhineng\obj\Release\xuchengzhineng.configuration.configForm.resources
+D:\xuriProject\xuchengzhineng\obj\Release\xuchengzhineng.configuration.Waiting.resources
+D:\xuriProject\xuchengzhineng\obj\Release\xuchengzhineng.Dialog.monitorDiag.resources
+D:\xuriProject\xuchengzhineng\obj\Release\xuchengzhineng.MainForm.resources
+D:\xuriProject\xuchengzhineng\obj\Release\xuchengzhineng.Properties.Resources.resources
+D:\xuriProject\xuchengzhineng\obj\Release\xuchengzhineng.userControl.labelPanel.resources
+D:\xuriProject\xuchengzhineng\obj\Release\xuchengzhineng.userControl.led.resources
+D:\xuriProject\xuchengzhineng\obj\Release\xuchengzhineng.userControl.panelplus.resources
+D:\xuriProject\xuchengzhineng\obj\Release\xuchengzhineng.csproj.GenerateResource.Cache
+D:\xuriProject\xuchengzhineng\obj\Release\xuchengzhineng.csproj.CoreCompileInputs.cache
+D:\xuriProject\xuchengzhineng\obj\Release\xuchengzhineng.exe
+D:\xuriProject\xuchengzhineng\obj\Release\xuchengzhineng.pdb

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ProductionConfig name="2号生产线">
+  <BackgroundImage name="factory.PNG"/>
+  <AssemblyLine>
+    <Step name="前处理开始" seq="1">
+      <monitor control="button">
+        <lx>150</lx>
+        <ly>2</ly>
+      </monitor>
+    </Step>
+    <Step name="预脱脂" seq="2">
+      <monitor control="button">
+        <lx>280</lx>
+        <ly>2</ly>
+      </monitor>
+    </Step>
+    <Step name="主脱脂" seq="3">
+      <monitor control="button">
+        <lx>400</lx>
+        <ly>2</ly>
+      </monitor>
+    </Step>
+    <Step name="水洗" seq="4">
+      <monitor control="button">
+        <lx>510</lx>
+        <ly>2</ly>
+      </monitor>
+    </Step>
+    <Step name="水洗" seq="5">
+      <monitor control="button">
+        <lx>620</lx>
+        <ly>2</ly>
+      </monitor>
+    </Step>
+    <Step name="硅烷段" seq="6">
+      <monitor control="button">
+        <lx>730</lx>
+        <ly>2</ly>
+      </monitor>
+    </Step>
+    <Step name="喷淋段" seq="7">
+      <monitor control="button">
+        <lx>840</lx>
+        <ly>2</ly>
+      </monitor>
+    </Step>
+    <Step name="水洗" seq="8">
+      <monitor control="button">
+        <lx>950</lx>
+        <ly>2</ly>
+      </monitor>
+    </Step>
+    <Step name="水洗" seq="9">
+      <monitor control="button">
+        <lx>1060</lx>
+        <ly>2</ly>
+      </monitor>
+    </Step>
+    <Step name="电泳" seq="10">
+      <monitor control="button">
+        <lx>280</lx>
+        <ly>40</ly>
+      </monitor>
+    </Step>
+    <Step name="水洗" seq="11">
+      <monitor control="button">
+        <lx>400</lx>
+        <ly>40</ly>
+      </monitor>
+    </Step>
+    <Step name="淋喷段" seq="12">
+      <monitor control="button">
+        <lx>510</lx>
+        <ly>40</ly>
+      </monitor>
+    </Step>
+    <Step name="水洗" seq="13">
+      <monitor control="button">
+        <lx>620</lx>
+        <ly>40</ly>
+      </monitor>
+    </Step>
+  </AssemblyLine>
+  <VariableTable>
+    <Variable Name="name1" ID="1">
+      <Address>
+        1
+      </Address>
+      <Units>
+        s
+      </Units>
+
+    </Variable>
+    <Variable Name="name2" ID="2">
+      <Address>
+        2
+      </Address>
+      <Units>
+        ㎡
+      </Units>
+
+    </Variable>
+    <Variable Name="name3" ID="3">
+      <Address>
+        3
+      </Address>
+      <Units>
+        km/s
+      </Units>
+
+    </Variable>
+  </VariableTable>
+  <ParameterTable>
+    <Parameter Name="pname1" ID="1">
+      <Address>
+        1
+      </Address>
+      <Units>
+        s
+      </Units>
+    </Parameter>
+    <Parameter Name="pname2" ID="2">
+      <Address>
+        2
+      </Address>
+      <Units>
+        s
+      </Units>
+    </Parameter>
+    <Parameter Name="pname3" ID="3">
+      <Address>
+        3
+      </Address>
+      <Units>
+        s
+      </Units>
+    </Parameter>
+  </ParameterTable>
+</ProductionConfig>

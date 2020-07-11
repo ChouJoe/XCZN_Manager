@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ParamTable>
+  <Version version="V1.0.0" />
+  <ParameterList>
+    <Parameter ID="1" opcName="&quot;ANA_PV&quot;.COUNT_A_PV">电量实际值</Parameter>
+    <Parameter ID="2" opcName="&quot;ANA_PV&quot;.COUNT_Q_PV">气量实际值</Parameter>
+    <Parameter ID="3" opcName="&quot;ANA_PV&quot;.COUNT_W_PV">水量实际值</Parameter>
+  </ParameterList>
+</ParamTable>
