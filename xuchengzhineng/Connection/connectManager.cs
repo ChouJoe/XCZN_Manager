@@ -42,7 +42,7 @@ namespace xuchengzhineng.Connection
         }
         public string Read(string name)
         {
-            string result = "";
+            string result = "null";
             if (Connected)
             {
                 result =  OPC.Read(name);

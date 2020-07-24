@@ -53,7 +53,7 @@ namespace xuchengzhineng.userControl
         {
             if (this._isWorking)
             {
-                this._currentIndex = (this._currentIndex == 0 ? 1 : 0);
+                this._currentIndex = 1;
                 this.ledbox.Image = this._imagelist[this._currentIndex];
             }
             else

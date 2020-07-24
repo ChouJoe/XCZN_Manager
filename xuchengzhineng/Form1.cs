@@ -11,6 +11,7 @@ using xuchengzhineng.configuration;
 using System.Threading;
 using xuchengzhineng.Connection;
 using System.Runtime.InteropServices;
+using LiveCharts.Wpf;
 namespace xuchengzhineng
 {
     public partial class MainForm : Form
@@ -25,6 +26,24 @@ namespace xuchengzhineng
             page4,
             page5
         }
+        private string[] MV = { "\"ANA_PV\".COUNT_A_PV", "\"ANA_PV\".COUNT_W_PV", "\"ANA_PV\".COUNT_Q_PV" };
+        private void  MoinitorRefresh()
+        {
+            string res1,res2,res3;
+            if (connectManager.Connected)
+            {
+                res1 = connectManager.OpcInstance.Read("\"ANA_PV\".COUNT_A_PV");
+                res2 = connectManager.OpcInstance.Read("\"ANA_PV\".COUNT_W_PV");
+                res3 = connectManager.OpcInstance.Read("\"ANA_PV\".COUNT_Q_PV");
+                this.InvokeIfNeed(() =>
+                {
+                    ucMeter1.Value = Math.Round(Convert.ToDecimal("110.25"),1) ;
+                    ucMeter2.Value = Math.Round(Convert.ToDecimal("220.25"), 1);
+                    ucMeter3.Value = Math.Round(Convert.ToDecimal("1000"), 1);
+                });
+            }
+         
+        }
         public MainForm()
         {
             InitializeComponent();
@@ -32,8 +51,7 @@ namespace xuchengzhineng
             this.NativeTabControl1.AssignHandle(this.tabControl1.Handle);
 
             dataGridView_Paraminit();
-
-
+           
         }
         private class NativeTabControl : NativeWindow
         {
@@ -80,15 +98,11 @@ namespace xuchengzhineng
         }
         private void DrawControl()
         {
-            this.InvokeIfNeed(() =>
-            {
-                bgdImagePanel.Visible = false;
-                bgdImagePanel.Controls.Clear();
-                bgdImagePanel.BackgroundImage = AssemblyLineManager.GetInstance().BackgroundImage;
-            });
 
+            bgdImagePanel.Visible = false;
+            bgdImagePanel.Controls.Clear();
 
-
+            bgdImagePanel.BackgroundImage = AssemblyLineManager.GetInstance().BackgroundImage;
             int[] monitor_buttonlist = AssemblyLineManager.GetInstance().GetSeqList();
             foreach(int key in monitor_buttonlist)
             {
@@ -97,18 +111,8 @@ namespace xuchengzhineng
                 this.bgdImagePanel.Controls.Add(ml);
                 ml.LabelText = key_control.ControlName;
                 ml.Location = new System.Drawing.Point(key_control.locationX, key_control.locationY);
-                ml.Size = new System.Drawing.Size(72, 54);
+                ml.Size = new System.Drawing.Size(58, 43);
                 ml.UserControlBtnClicked+= key_control.click_event;
-                //pb.BackColor = System.Drawing.Color.Transparent;
-                //pb.BackgroundImage = global::xuchengzhineng.Properties.Resources.lb1;
-                //pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-                //pb.Cursor = System.Windows.Forms.Cursors.Hand;
-                //pb.Location = new System.Drawing.Point(key_control.locationX, key_control.locationY);
-                //pb.Name = key_control.ControlName + key_control.seq.ToString();
-                //pb.Size = new System.Drawing.Size(25, 38);
-                //pb.Click += key_control.click_event;
-                //pb.MouseEnter += key_control.mousehover_enter;
-                //pb.MouseLeave += key_control.mousehover_leave;
               
             }
             bgdImagePanel.Visible = true;
@@ -133,24 +137,25 @@ namespace xuchengzhineng
         {
             if (connectManager.Connected)
             {
-                string world = connectManager.OpcInstance.Read("\"DI_HMI\".DO_D0");
-                UInt16 Status = Convert.ToUInt16(world);
-                for (int i = 0; i < 3; i++)
+                string world = connectManager.OpcInstance.Read("\"DI_HMI\".DO_MD200");
+                UInt32 Status = Convert.ToUInt32(world);
+                byte[] res = BitConverter.GetBytes(Status);
+                bool  warn= (((res[3] >> 0) & 0x01) == 1);
+                bool  safe = (((res[3] >> 1) & 0x01) == 1);
+                bool  error = (((res[3] >> 2) & 0x01) == 1);
+                if (error==true || warn==true)
                 {
-                    bool res = (((Status >> i) & 0x01) == 1);
-                    switch (i)
-                    {
-                        case 0:
-                            led_safe.IsWorking = res;
-                            break;
-                        case 1:
-                            led_warning.IsWorking = res;
-                            break;
-                        case 2:
-                            led_error.IsWorking = res;
-                            break;
-                    }
+                    led_safe.IsWorking = false;
+                    led_warning.IsWorking = warn;
+                    led_error.IsWorking = error;
                 }
+                else 
+                {
+                    led_safe.IsWorking = safe;
+                    led_warning.IsWorking = warn;
+                    led_error.IsWorking = error;
+                }
+       
             }
            
         }
@@ -210,19 +215,22 @@ namespace xuchengzhineng
                     {
                         DateTime_label.Text = DateTime.Now.ToString();
                     });
-                  
+                    //DateTime_label.Text = DateTime.Now.ToString();
                     Thread.Sleep(1000);
                 }
             }));
             threadShowTime.IsBackground = true;
             threadShowTime.Start();
         }
+        private void moinitorRefresh()
+        {
 
+        }
         private void timer_refreshData_Tick(object sender, EventArgs e)
         {
             if(_page == Tabpage.page1)
             {
-             
+                MoinitorRefresh();
             }
             else if(_page == Tabpage.page2)
             {
@@ -322,7 +330,6 @@ namespace xuchengzhineng
             try
             {
                 connectManager.OpcInstance.DisConnect();
-                //  connectManager.Connected = false;
                 led_safe.IsWorking = false;
             }
             catch
@@ -358,6 +365,6 @@ namespace xuchengzhineng
             this.Close();
         }
 
-  
+   
     }
 }

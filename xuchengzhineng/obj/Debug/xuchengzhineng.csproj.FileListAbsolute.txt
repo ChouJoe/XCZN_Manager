@@ -90,3 +90,15 @@ D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\LiveCharts.WinForms.xml
 D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\LiveCharts.Wpf.pdb
 D:\xuchengzhineng2.0\xuchengzhineng\bin\Debug\LiveCharts.Wpf.xml
 D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.userControl.mapLocation.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Menu.tuozhi.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Menu.chunshuixi.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Menu.guiwan.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Menu.fenmoguhua.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Menu.reshuixi.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Menu.feiqichuli.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Menu.fenfang.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Menu.hongwaijiare.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Menu.qianglen.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Menu.reshuilu.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Menu.shuifenghonggan.resources
+D:\xuchengzhineng2.0\xuchengzhineng\obj\Debug\xuchengzhineng.Menu.jifanglian.resources

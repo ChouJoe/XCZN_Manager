@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("2020/5/8 12:00:00");
-            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("2020/5/9 12:00:00");
-            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("2020/5/11 12:00:00");
-            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("2020/5/12 12:00:00");
-            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("历史文件", new System.Windows.Forms.TreeNode[] {
-            treeNode41,
-            treeNode42,
-            treeNode43,
-            treeNode44});
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("2020/5/8 12:00:00");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("2020/5/9 12:00:00");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("2020/5/11 12:00:00");
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("2020/5/12 12:00:00");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("历史文件", new System.Windows.Forms.TreeNode[] {
+            treeNode16,
+            treeNode17,
+            treeNode18,
+            treeNode19});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -123,8 +123,8 @@
             this.LoutBtn = new System.Windows.Forms.Button();
             this.ConfigBtn = new System.Windows.Forms.Button();
             this.DisconBtn = new System.Windows.Forms.Button();
-            this.DateTime_label = new System.Windows.Forms.Label();
             this.led_error = new xuchengzhineng.userControl.led();
+            this.DateTime_label = new System.Windows.Forms.Label();
             this.led_safe = new xuchengzhineng.userControl.led();
             this.led_warning = new xuchengzhineng.userControl.led();
             this.tabControl1.SuspendLayout();
@@ -156,7 +156,7 @@
             this.tabControl1.Multiline = true;
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1342, 794);
+            this.tabControl1.Size = new System.Drawing.Size(1284, 794);
             this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl1.TabIndex = 1;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
@@ -173,7 +173,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 5);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1334, 785);
+            this.tabPage1.Size = new System.Drawing.Size(1276, 785);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "监控";
             // 
@@ -192,9 +192,9 @@
             this.panel3.Controls.Add(this.label14);
             this.panel3.Controls.Add(this.ucMeter1);
             this.panel3.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.panel3.Location = new System.Drawing.Point(11, 105);
+            this.panel3.Location = new System.Drawing.Point(16, 94);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(384, 242);
+            this.panel3.Size = new System.Drawing.Size(405, 270);
             this.panel3.TabIndex = 9;
             // 
             // label35
@@ -202,7 +202,7 @@
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label35.Location = new System.Drawing.Point(125, 113);
+            this.label35.Location = new System.Drawing.Point(133, 144);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(121, 19);
             this.label35.TabIndex = 15;
@@ -212,7 +212,7 @@
             // 
             this.label18.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(192)))), ((int)(((byte)(226)))));
-            this.label18.Location = new System.Drawing.Point(197, 152);
+            this.label18.Location = new System.Drawing.Point(197, 177);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(182, 31);
             this.label18.TabIndex = 13;
@@ -223,7 +223,7 @@
             // 
             this.label17.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(192)))), ((int)(((byte)(226)))));
-            this.label17.Location = new System.Drawing.Point(3, 152);
+            this.label17.Location = new System.Drawing.Point(3, 177);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(182, 31);
             this.label17.TabIndex = 12;
@@ -235,7 +235,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label15.Location = new System.Drawing.Point(248, 190);
+            this.label15.Location = new System.Drawing.Point(248, 215);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(76, 19);
             this.label15.TabIndex = 10;
@@ -246,7 +246,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label12.Location = new System.Drawing.Point(245, 133);
+            this.label12.Location = new System.Drawing.Point(245, 158);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(76, 19);
             this.label12.TabIndex = 9;
@@ -257,7 +257,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label11.Location = new System.Drawing.Point(51, 191);
+            this.label11.Location = new System.Drawing.Point(51, 216);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(76, 19);
             this.label11.TabIndex = 8;
@@ -267,7 +267,7 @@
             // 
             this.label8.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(233)))), ((int)(((byte)(6)))));
-            this.label8.Location = new System.Drawing.Point(203, 211);
+            this.label8.Location = new System.Drawing.Point(203, 236);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(176, 29);
             this.label8.TabIndex = 7;
@@ -278,7 +278,7 @@
             // 
             this.label9.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(192)))), ((int)(((byte)(226)))));
-            this.label9.Location = new System.Drawing.Point(3, 209);
+            this.label9.Location = new System.Drawing.Point(3, 234);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(182, 31);
             this.label9.TabIndex = 6;
@@ -290,7 +290,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label13.Location = new System.Drawing.Point(51, 133);
+            this.label13.Location = new System.Drawing.Point(51, 158);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(76, 19);
             this.label13.TabIndex = 1;
@@ -314,9 +314,9 @@
             this.ucMeter1.BoundaryLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ucMeter1.ExternalRoundColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ucMeter1.FixedText = "";
-            this.ucMeter1.Font = new System.Drawing.Font("微软雅黑", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ucMeter1.Font = new System.Drawing.Font("微软雅黑", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ucMeter1.InsideRoundColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ucMeter1.Location = new System.Drawing.Point(85, 10);
+            this.ucMeter1.Location = new System.Drawing.Point(60, 5);
             this.ucMeter1.MaxValue = new decimal(new int[] {
             1000,
             0,
@@ -332,7 +332,7 @@
             this.ucMeter1.PointerColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ucMeter1.ScaleColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ucMeter1.ScaleValueColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ucMeter1.Size = new System.Drawing.Size(189, 113);
+            this.ucMeter1.Size = new System.Drawing.Size(264, 138);
             this.ucMeter1.SplitCount = 5;
             this.ucMeter1.TabIndex = 9;
             this.ucMeter1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(192)))), ((int)(((byte)(226)))));
@@ -346,6 +346,8 @@
             // 
             // panel5
             // 
+            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(20)))), ((int)(((byte)(89)))));
             this.panel5.Controls.Add(this.label37);
             this.panel5.Controls.Add(this.label26);
@@ -358,9 +360,9 @@
             this.panel5.Controls.Add(this.label33);
             this.panel5.Controls.Add(this.label34);
             this.panel5.Controls.Add(this.ucMeter3);
-            this.panel5.Location = new System.Drawing.Point(915, 105);
+            this.panel5.Location = new System.Drawing.Point(925, 94);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(384, 240);
+            this.panel5.Size = new System.Drawing.Size(348, 270);
             this.panel5.TabIndex = 11;
             // 
             // label37
@@ -368,7 +370,7 @@
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label37.Location = new System.Drawing.Point(144, 109);
+            this.label37.Location = new System.Drawing.Point(140, 138);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(117, 19);
             this.label37.TabIndex = 16;
@@ -378,7 +380,7 @@
             // 
             this.label26.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(192)))), ((int)(((byte)(226)))));
-            this.label26.Location = new System.Drawing.Point(197, 150);
+            this.label26.Location = new System.Drawing.Point(197, 176);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(182, 31);
             this.label26.TabIndex = 13;
@@ -389,7 +391,7 @@
             // 
             this.label27.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(192)))), ((int)(((byte)(226)))));
-            this.label27.Location = new System.Drawing.Point(3, 150);
+            this.label27.Location = new System.Drawing.Point(3, 176);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(182, 31);
             this.label27.TabIndex = 12;
@@ -401,7 +403,7 @@
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label28.Location = new System.Drawing.Point(248, 192);
+            this.label28.Location = new System.Drawing.Point(248, 218);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(72, 19);
             this.label28.TabIndex = 10;
@@ -412,7 +414,7 @@
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label29.Location = new System.Drawing.Point(245, 131);
+            this.label29.Location = new System.Drawing.Point(245, 157);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(72, 19);
             this.label29.TabIndex = 9;
@@ -423,7 +425,7 @@
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label30.Location = new System.Drawing.Point(51, 192);
+            this.label30.Location = new System.Drawing.Point(51, 218);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(72, 19);
             this.label30.TabIndex = 8;
@@ -433,9 +435,9 @@
             // 
             this.label31.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(233)))), ((int)(((byte)(6)))));
-            this.label31.Location = new System.Drawing.Point(203, 207);
+            this.label31.Location = new System.Drawing.Point(226, 233);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(176, 29);
+            this.label31.Size = new System.Drawing.Size(117, 29);
             this.label31.TabIndex = 7;
             this.label31.Text = "1234";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -444,7 +446,7 @@
             // 
             this.label32.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(192)))), ((int)(((byte)(226)))));
-            this.label32.Location = new System.Drawing.Point(3, 207);
+            this.label32.Location = new System.Drawing.Point(3, 233);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(182, 31);
             this.label32.TabIndex = 6;
@@ -456,7 +458,7 @@
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label33.Location = new System.Drawing.Point(51, 131);
+            this.label33.Location = new System.Drawing.Point(51, 157);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(72, 19);
             this.label33.TabIndex = 1;
@@ -482,7 +484,7 @@
             this.ucMeter3.FixedText = "";
             this.ucMeter3.Font = new System.Drawing.Font("微软雅黑", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ucMeter3.InsideRoundColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ucMeter3.Location = new System.Drawing.Point(105, 6);
+            this.ucMeter3.Location = new System.Drawing.Point(64, 3);
             this.ucMeter3.MaxValue = new decimal(new int[] {
             1000,
             0,
@@ -498,7 +500,7 @@
             this.ucMeter3.PointerColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ucMeter3.ScaleColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ucMeter3.ScaleValueColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ucMeter3.Size = new System.Drawing.Size(187, 113);
+            this.ucMeter3.Size = new System.Drawing.Size(266, 141);
             this.ucMeter3.SplitCount = 5;
             this.ucMeter3.TabIndex = 15;
             this.ucMeter3.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(192)))), ((int)(((byte)(226)))));
@@ -524,9 +526,9 @@
             this.panel4.Controls.Add(this.label24);
             this.panel4.Controls.Add(this.label25);
             this.panel4.Controls.Add(this.ucMeter2);
-            this.panel4.Location = new System.Drawing.Point(463, 105);
+            this.panel4.Location = new System.Drawing.Point(474, 94);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(384, 242);
+            this.panel4.Size = new System.Drawing.Size(405, 270);
             this.panel4.TabIndex = 10;
             // 
             // label36
@@ -534,7 +536,7 @@
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label36.Location = new System.Drawing.Point(124, 103);
+            this.label36.Location = new System.Drawing.Point(137, 138);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(117, 19);
             this.label36.TabIndex = 16;
@@ -544,7 +546,7 @@
             // 
             this.label10.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(192)))), ((int)(((byte)(226)))));
-            this.label10.Location = new System.Drawing.Point(197, 143);
+            this.label10.Location = new System.Drawing.Point(206, 176);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(182, 31);
             this.label10.TabIndex = 13;
@@ -555,7 +557,7 @@
             // 
             this.label16.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(192)))), ((int)(((byte)(226)))));
-            this.label16.Location = new System.Drawing.Point(3, 143);
+            this.label16.Location = new System.Drawing.Point(12, 176);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(182, 31);
             this.label16.TabIndex = 12;
@@ -567,7 +569,7 @@
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label19.Location = new System.Drawing.Point(248, 185);
+            this.label19.Location = new System.Drawing.Point(257, 218);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(72, 19);
             this.label19.TabIndex = 10;
@@ -578,7 +580,7 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label20.Location = new System.Drawing.Point(245, 124);
+            this.label20.Location = new System.Drawing.Point(254, 157);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(72, 19);
             this.label20.TabIndex = 9;
@@ -589,7 +591,7 @@
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label21.Location = new System.Drawing.Point(51, 185);
+            this.label21.Location = new System.Drawing.Point(60, 218);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(72, 19);
             this.label21.TabIndex = 8;
@@ -599,7 +601,7 @@
             // 
             this.label22.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(233)))), ((int)(((byte)(6)))));
-            this.label22.Location = new System.Drawing.Point(203, 201);
+            this.label22.Location = new System.Drawing.Point(212, 234);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(176, 29);
             this.label22.TabIndex = 7;
@@ -610,7 +612,7 @@
             // 
             this.label23.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(192)))), ((int)(((byte)(226)))));
-            this.label23.Location = new System.Drawing.Point(3, 201);
+            this.label23.Location = new System.Drawing.Point(12, 234);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(182, 31);
             this.label23.TabIndex = 6;
@@ -622,7 +624,7 @@
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label24.Location = new System.Drawing.Point(51, 124);
+            this.label24.Location = new System.Drawing.Point(60, 157);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(72, 19);
             this.label24.TabIndex = 1;
@@ -648,7 +650,7 @@
             this.ucMeter2.FixedText = "";
             this.ucMeter2.Font = new System.Drawing.Font("微软雅黑", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ucMeter2.InsideRoundColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ucMeter2.Location = new System.Drawing.Point(99, 3);
+            this.ucMeter2.Location = new System.Drawing.Point(59, 2);
             this.ucMeter2.MaxValue = new decimal(new int[] {
             1000,
             0,
@@ -664,7 +666,7 @@
             this.ucMeter2.PointerColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ucMeter2.ScaleColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ucMeter2.ScaleValueColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ucMeter2.Size = new System.Drawing.Size(183, 102);
+            this.ucMeter2.Size = new System.Drawing.Size(266, 141);
             this.ucMeter2.SplitCount = 5;
             this.ucMeter2.TabIndex = 15;
             this.ucMeter2.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(192)))), ((int)(((byte)(226)))));
@@ -678,6 +680,8 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(20)))), ((int)(((byte)(89)))));
             this.panel2.Controls.Add(this.ucProcessEllipse3);
             this.panel2.Controls.Add(this.ucProcessEllipse2);
@@ -688,9 +692,9 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(8, 6);
+            this.panel2.Location = new System.Drawing.Point(17, 6);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1291, 82);
+            this.panel2.Size = new System.Drawing.Size(1253, 82);
             this.panel2.TabIndex = 8;
             // 
             // ucProcessEllipse3
@@ -815,7 +819,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(94)))), ((int)(((byte)(255)))));
             this.label1.Font = new System.Drawing.Font("微软雅黑 Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(6, 9);
+            this.label1.Location = new System.Drawing.Point(1, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(119, 31);
             this.label1.TabIndex = 0;
@@ -824,11 +828,13 @@
             // 
             // bgdImagePanel
             // 
+            this.bgdImagePanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.bgdImagePanel.BackgroundImage = global::xuchengzhineng.Properties.Resources.productConfig1;
             this.bgdImagePanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bgdImagePanel.Location = new System.Drawing.Point(0, 359);
+            this.bgdImagePanel.Location = new System.Drawing.Point(0, 390);
             this.bgdImagePanel.Name = "bgdImagePanel";
-            this.bgdImagePanel.Size = new System.Drawing.Size(1313, 409);
+            this.bgdImagePanel.Size = new System.Drawing.Size(1273, 389);
             this.bgdImagePanel.TabIndex = 7;
             // 
             // tabPage2
@@ -839,7 +845,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 5);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1334, 785);
+            this.tabPage2.Size = new System.Drawing.Size(1276, 785);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "查询";
             // 
@@ -880,19 +886,19 @@
             this.treeView1.Dock = System.Windows.Forms.DockStyle.Left;
             this.treeView1.Location = new System.Drawing.Point(3, 3);
             this.treeView1.Name = "treeView1";
-            treeNode41.Checked = true;
-            treeNode41.Name = "节点1";
-            treeNode41.Text = "2020/5/8 12:00:00";
-            treeNode42.Name = "节点2";
-            treeNode42.Text = "2020/5/9 12:00:00";
-            treeNode43.Name = "节点3";
-            treeNode43.Text = "2020/5/11 12:00:00";
-            treeNode44.Name = "节点4";
-            treeNode44.Text = "2020/5/12 12:00:00";
-            treeNode45.Name = "历史文件";
-            treeNode45.Text = "历史文件";
+            treeNode16.Checked = true;
+            treeNode16.Name = "节点1";
+            treeNode16.Text = "2020/5/8 12:00:00";
+            treeNode17.Name = "节点2";
+            treeNode17.Text = "2020/5/9 12:00:00";
+            treeNode18.Name = "节点3";
+            treeNode18.Text = "2020/5/11 12:00:00";
+            treeNode19.Name = "节点4";
+            treeNode19.Text = "2020/5/12 12:00:00";
+            treeNode20.Name = "历史文件";
+            treeNode20.Text = "历史文件";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode45});
+            treeNode20});
             this.treeView1.Size = new System.Drawing.Size(260, 779);
             this.treeView1.TabIndex = 0;
             // 
@@ -902,7 +908,7 @@
             this.tabPage3.Controls.Add(this.panel1);
             this.tabPage3.Location = new System.Drawing.Point(4, 5);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1334, 785);
+            this.tabPage3.Size = new System.Drawing.Size(1276, 785);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "配置";
             // 
@@ -1043,7 +1049,7 @@
             // 
             this.tabPage4.Location = new System.Drawing.Point(4, 5);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1334, 785);
+            this.tabPage4.Size = new System.Drawing.Size(1276, 785);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "维护";
             // 
@@ -1051,7 +1057,7 @@
             // 
             this.tabPage5.Location = new System.Drawing.Point(4, 5);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1334, 785);
+            this.tabPage5.Size = new System.Drawing.Size(1276, 785);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "回溯";
             // 
@@ -1105,11 +1111,12 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel6.Location = new System.Drawing.Point(0, 863);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1342, 72);
+            this.panel6.Size = new System.Drawing.Size(1284, 72);
             this.panel6.TabIndex = 6;
             // 
             // ucBtnImg4
             // 
+            this.ucBtnImg4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ucBtnImg4.BackColor = System.Drawing.Color.Transparent;
             this.ucBtnImg4.BtnBackColor = System.Drawing.Color.Transparent;
             this.ucBtnImg4.BtnFont = new System.Drawing.Font("微软雅黑", 12F);
@@ -1117,6 +1124,7 @@
             this.ucBtnImg4.BtnText = "回溯";
             this.ucBtnImg4.ConerRadius = 5;
             this.ucBtnImg4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ucBtnImg4.Enabled = false;
             this.ucBtnImg4.EnabledMouseEffect = false;
             this.ucBtnImg4.FillColor = System.Drawing.Color.Transparent;
             this.ucBtnImg4.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold);
@@ -1127,7 +1135,7 @@
             this.ucBtnImg4.IsRadius = true;
             this.ucBtnImg4.IsShowRect = true;
             this.ucBtnImg4.IsShowTips = false;
-            this.ucBtnImg4.Location = new System.Drawing.Point(818, 33);
+            this.ucBtnImg4.Location = new System.Drawing.Point(790, 23);
             this.ucBtnImg4.Margin = new System.Windows.Forms.Padding(0);
             this.ucBtnImg4.Name = "ucBtnImg4";
             this.ucBtnImg4.RectColor = System.Drawing.Color.Transparent;
@@ -1142,6 +1150,7 @@
             // 
             // ucBtnImg3
             // 
+            this.ucBtnImg3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ucBtnImg3.BackColor = System.Drawing.Color.Transparent;
             this.ucBtnImg3.BtnBackColor = System.Drawing.Color.Transparent;
             this.ucBtnImg3.BtnFont = new System.Drawing.Font("微软雅黑", 12F);
@@ -1149,6 +1158,7 @@
             this.ucBtnImg3.BtnText = "查询";
             this.ucBtnImg3.ConerRadius = 5;
             this.ucBtnImg3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ucBtnImg3.Enabled = false;
             this.ucBtnImg3.EnabledMouseEffect = false;
             this.ucBtnImg3.FillColor = System.Drawing.Color.Transparent;
             this.ucBtnImg3.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold);
@@ -1159,7 +1169,7 @@
             this.ucBtnImg3.IsRadius = true;
             this.ucBtnImg3.IsShowRect = true;
             this.ucBtnImg3.IsShowTips = false;
-            this.ucBtnImg3.Location = new System.Drawing.Point(566, 33);
+            this.ucBtnImg3.Location = new System.Drawing.Point(538, 23);
             this.ucBtnImg3.Margin = new System.Windows.Forms.Padding(0);
             this.ucBtnImg3.Name = "ucBtnImg3";
             this.ucBtnImg3.RectColor = System.Drawing.Color.Transparent;
@@ -1174,6 +1184,7 @@
             // 
             // ucBtnImg2
             // 
+            this.ucBtnImg2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ucBtnImg2.BackColor = System.Drawing.Color.Transparent;
             this.ucBtnImg2.BtnBackColor = System.Drawing.Color.Transparent;
             this.ucBtnImg2.BtnFont = new System.Drawing.Font("微软雅黑", 12F);
@@ -1181,6 +1192,7 @@
             this.ucBtnImg2.BtnText = "维护";
             this.ucBtnImg2.ConerRadius = 5;
             this.ucBtnImg2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ucBtnImg2.Enabled = false;
             this.ucBtnImg2.EnabledMouseEffect = false;
             this.ucBtnImg2.FillColor = System.Drawing.Color.Transparent;
             this.ucBtnImg2.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold);
@@ -1191,7 +1203,7 @@
             this.ucBtnImg2.IsRadius = true;
             this.ucBtnImg2.IsShowRect = true;
             this.ucBtnImg2.IsShowTips = false;
-            this.ucBtnImg2.Location = new System.Drawing.Point(692, 33);
+            this.ucBtnImg2.Location = new System.Drawing.Point(664, 23);
             this.ucBtnImg2.Margin = new System.Windows.Forms.Padding(0);
             this.ucBtnImg2.Name = "ucBtnImg2";
             this.ucBtnImg2.RectColor = System.Drawing.Color.Transparent;
@@ -1206,6 +1218,7 @@
             // 
             // ucBtnImg1
             // 
+            this.ucBtnImg1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ucBtnImg1.BackColor = System.Drawing.Color.Transparent;
             this.ucBtnImg1.BtnBackColor = System.Drawing.Color.Transparent;
             this.ucBtnImg1.BtnFont = new System.Drawing.Font("微软雅黑", 12F);
@@ -1223,7 +1236,7 @@
             this.ucBtnImg1.IsRadius = true;
             this.ucBtnImg1.IsShowRect = true;
             this.ucBtnImg1.IsShowTips = false;
-            this.ucBtnImg1.Location = new System.Drawing.Point(440, 33);
+            this.ucBtnImg1.Location = new System.Drawing.Point(412, 23);
             this.ucBtnImg1.Margin = new System.Windows.Forms.Padding(0);
             this.ucBtnImg1.Name = "ucBtnImg1";
             this.ucBtnImg1.RectColor = System.Drawing.Color.Transparent;
@@ -1251,7 +1264,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1342, 69);
+            this.panel7.Size = new System.Drawing.Size(1284, 69);
             this.panel7.TabIndex = 7;
             // 
             // ConBtn
@@ -1261,14 +1274,14 @@
             this.ConBtn.BackColor = System.Drawing.Color.Transparent;
             this.ConBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ConBtn.FlatAppearance.BorderSize = 0;
-            this.ConBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(20)))), ((int)(((byte)(89)))));
-            this.ConBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(20)))), ((int)(((byte)(89)))));
+            this.ConBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.ConBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.ConBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ConBtn.Font = new System.Drawing.Font("微软雅黑 Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ConBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ConBtn.Image = global::xuchengzhineng.Properties.Resources.connect_device;
             this.ConBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ConBtn.Location = new System.Drawing.Point(911, -3);
+            this.ConBtn.Location = new System.Drawing.Point(853, -6);
             this.ConBtn.Name = "ConBtn";
             this.ConBtn.Size = new System.Drawing.Size(90, 38);
             this.ConBtn.TabIndex = 10;
@@ -1284,20 +1297,21 @@
             this.LoutBtn.BackColor = System.Drawing.Color.Transparent;
             this.LoutBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LoutBtn.FlatAppearance.BorderSize = 0;
-            this.LoutBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(20)))), ((int)(((byte)(89)))));
-            this.LoutBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(20)))), ((int)(((byte)(89)))));
+            this.LoutBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.LoutBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.LoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LoutBtn.Font = new System.Drawing.Font("微软雅黑 Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.LoutBtn.ForeColor = System.Drawing.Color.Red;
             this.LoutBtn.Image = global::xuchengzhineng.Properties.Resources.关机__1_;
             this.LoutBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.LoutBtn.Location = new System.Drawing.Point(1223, 2);
+            this.LoutBtn.Location = new System.Drawing.Point(1165, 5);
             this.LoutBtn.Name = "LoutBtn";
             this.LoutBtn.Size = new System.Drawing.Size(88, 30);
             this.LoutBtn.TabIndex = 9;
             this.LoutBtn.Text = "关机";
             this.LoutBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.LoutBtn.UseVisualStyleBackColor = false;
+            this.LoutBtn.Visible = false;
             this.LoutBtn.Click += new System.EventHandler(this.LoutBtn_Click);
             // 
             // ConfigBtn
@@ -1307,16 +1321,16 @@
             this.ConfigBtn.BackColor = System.Drawing.Color.Transparent;
             this.ConfigBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ConfigBtn.FlatAppearance.BorderSize = 0;
-            this.ConfigBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(20)))), ((int)(((byte)(89)))));
-            this.ConfigBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(20)))), ((int)(((byte)(89)))));
+            this.ConfigBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.ConfigBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.ConfigBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ConfigBtn.Font = new System.Drawing.Font("微软雅黑 Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ConfigBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ConfigBtn.Image = global::xuchengzhineng.Properties.Resources.config;
             this.ConfigBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ConfigBtn.Location = new System.Drawing.Point(1125, 1);
+            this.ConfigBtn.Location = new System.Drawing.Point(1067, -3);
             this.ConfigBtn.Name = "ConfigBtn";
-            this.ConfigBtn.Size = new System.Drawing.Size(86, 30);
+            this.ConfigBtn.Size = new System.Drawing.Size(89, 38);
             this.ConfigBtn.TabIndex = 8;
             this.ConfigBtn.Text = "配置";
             this.ConfigBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1329,15 +1343,16 @@
             this.DisconBtn.AutoSize = true;
             this.DisconBtn.BackColor = System.Drawing.Color.Transparent;
             this.DisconBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DisconBtn.Enabled = false;
             this.DisconBtn.FlatAppearance.BorderSize = 0;
-            this.DisconBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(20)))), ((int)(((byte)(89)))));
-            this.DisconBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(20)))), ((int)(((byte)(89)))));
+            this.DisconBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.DisconBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.DisconBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DisconBtn.Font = new System.Drawing.Font("微软雅黑 Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.DisconBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.DisconBtn.Image = global::xuchengzhineng.Properties.Resources.disconnect_device;
             this.DisconBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.DisconBtn.Location = new System.Drawing.Point(1018, -3);
+            this.DisconBtn.Location = new System.Drawing.Point(960, -6);
             this.DisconBtn.Name = "DisconBtn";
             this.DisconBtn.Size = new System.Drawing.Size(89, 38);
             this.DisconBtn.TabIndex = 7;
@@ -1345,6 +1360,16 @@
             this.DisconBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.DisconBtn.UseVisualStyleBackColor = false;
             this.DisconBtn.Click += new System.EventHandler(this.DisconBtn_Click);
+            // 
+            // led_error
+            // 
+            this.led_error.BackColor = System.Drawing.Color.Transparent;
+            this.led_error.initImage = global::xuchengzhineng.Properties.Resources.red_off;
+            this.led_error.IsWorking = false;
+            this.led_error.Location = new System.Drawing.Point(1117, 44);
+            this.led_error.Name = "led_error";
+            this.led_error.Size = new System.Drawing.Size(22, 22);
+            this.led_error.TabIndex = 5;
             // 
             // DateTime_label
             // 
@@ -1358,22 +1383,12 @@
             this.DateTime_label.TabIndex = 6;
             this.DateTime_label.Text = "2020.7.10 23:32:33";
             // 
-            // led_error
-            // 
-            this.led_error.BackColor = System.Drawing.Color.Transparent;
-            this.led_error.initImage = global::xuchengzhineng.Properties.Resources.red_off;
-            this.led_error.IsWorking = false;
-            this.led_error.Location = new System.Drawing.Point(1227, 44);
-            this.led_error.Name = "led_error";
-            this.led_error.Size = new System.Drawing.Size(22, 22);
-            this.led_error.TabIndex = 5;
-            // 
             // led_safe
             // 
             this.led_safe.BackColor = System.Drawing.Color.Transparent;
             this.led_safe.initImage = global::xuchengzhineng.Properties.Resources.green_off;
             this.led_safe.IsWorking = false;
-            this.led_safe.Location = new System.Drawing.Point(1129, 44);
+            this.led_safe.Location = new System.Drawing.Point(1171, 44);
             this.led_safe.Name = "led_safe";
             this.led_safe.Size = new System.Drawing.Size(22, 22);
             this.led_safe.TabIndex = 3;
@@ -1383,7 +1398,7 @@
             this.led_warning.BackColor = System.Drawing.Color.Transparent;
             this.led_warning.initImage = global::xuchengzhineng.Properties.Resources.yellow_off;
             this.led_warning.IsWorking = false;
-            this.led_warning.Location = new System.Drawing.Point(1178, 44);
+            this.led_warning.Location = new System.Drawing.Point(1220, 44);
             this.led_warning.Name = "led_warning";
             this.led_warning.Size = new System.Drawing.Size(22, 22);
             this.led_warning.TabIndex = 4;
@@ -1394,12 +1409,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1342, 935);
+            this.ClientSize = new System.Drawing.Size(1284, 935);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel7);
             this.Name = "MainForm";
             this.Text = "旭成智能涂装系统";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.tabControl1.ResumeLayout(false);

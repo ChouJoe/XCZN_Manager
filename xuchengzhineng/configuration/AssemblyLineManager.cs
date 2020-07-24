@@ -6,6 +6,7 @@ using System.IO;
 using System.Drawing;
 using xuchengzhineng.Dialog;
 using System.Windows.Forms;
+using xuchengzhineng.Menu;
 namespace xuchengzhineng.configuration
 {
     class AssemblyLineManager
@@ -120,9 +121,72 @@ namespace xuchengzhineng.configuration
         {
             this.click_event = new EventHandler((s, e) =>
             {
-                monitorDiag diag = new monitorDiag(name,namelist);
-                diag.ShowDialog();
-                diag.Dispose();
+                
+                switch (this.seq){
+                    case 1:
+                        Form tuozhi = new tuozhi();
+                        tuozhi.ShowDialog();
+                        tuozhi.Dispose();
+                        break;
+                    case 2:
+                        chunshuixi CSX = new chunshuixi();
+                        CSX.ShowDialog();
+                        CSX.Dispose();
+                        break;
+                    case 3:
+                        guiwan GW = new guiwan();
+                        GW.ShowDialog();
+                        GW.Dispose();
+                        break;
+                    case 4:
+                        reshuixi RSX = new reshuixi();
+                        RSX.ShowDialog();
+                        RSX.Dispose();
+                        break;
+                    case 5:
+                        reshuilu RSL = new reshuilu();
+                        RSL.ShowDialog();
+                        RSL.Dispose();
+                        break;
+                    case 6:
+                        shuifenghonggan SFHG = new shuifenghonggan();
+                        SFHG.ShowDialog();
+                        SFHG.Dispose();
+                        break;
+                    case 7:
+                        feiqichuli FQCL = new feiqichuli();
+                        FQCL.ShowDialog();
+                        FQCL.Dispose();
+                        break;
+                    case 8:
+                        fenfang FF = new fenfang();
+                        FF.ShowDialog();
+                        FF.Dispose();
+                        break;
+                    case 9:
+                        hongwaijiare HWJR = new hongwaijiare();
+                        HWJR.ShowDialog();
+                        HWJR.Dispose();
+                        break;
+                    case 10:
+                        fenmoguhua FMGH = new fenmoguhua();
+                        FMGH.ShowDialog();
+                        FMGH.Dispose();
+                        break;
+                    case 11:
+                        qianglen QL = new qianglen();
+                        QL.ShowDialog();
+                        QL.Dispose();
+                        break;
+                    case 12:
+                        jifanglian JFL = new jifanglian();
+                        JFL.ShowDialog();
+                        JFL.Dispose();
+                        break;
+                   
+                }
+           
+          
             });
             this.mousehover_enter = new EventHandler((s, e) =>
             {

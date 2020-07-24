@@ -133,6 +133,78 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu\chunshuixi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\chunshuixi.Designer.cs">
+      <DependentUpon>chunshuixi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\feiqichuli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\feiqichuli.Designer.cs">
+      <DependentUpon>feiqichuli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\fenfang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\fenfang.Designer.cs">
+      <DependentUpon>fenfang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\fenmoguhua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\fenmoguhua.Designer.cs">
+      <DependentUpon>fenmoguhua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\guiwan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\guiwan.Designer.cs">
+      <DependentUpon>guiwan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\hongwaijiare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\hongwaijiare.Designer.cs">
+      <DependentUpon>hongwaijiare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\jifanglian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\jifanglian.Designer.cs">
+      <DependentUpon>jifanglian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\qianglen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\qianglen.Designer.cs">
+      <DependentUpon>qianglen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\reshuilu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\reshuilu.Designer.cs">
+      <DependentUpon>reshuilu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\reshuixi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\reshuixi.Designer.cs">
+      <DependentUpon>reshuixi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\shuifenghonggan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\shuifenghonggan.Designer.cs">
+      <DependentUpon>shuifenghonggan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\tuozhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\tuozhi.Designer.cs">
+      <DependentUpon>tuozhi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -200,6 +272,42 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\chunshuixi.resx">
+      <DependentUpon>chunshuixi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\feiqichuli.resx">
+      <DependentUpon>feiqichuli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\fenfang.resx">
+      <DependentUpon>fenfang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\fenmoguhua.resx">
+      <DependentUpon>fenmoguhua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\guiwan.resx">
+      <DependentUpon>guiwan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\hongwaijiare.resx">
+      <DependentUpon>hongwaijiare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\jifanglian.resx">
+      <DependentUpon>jifanglian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\qianglen.resx">
+      <DependentUpon>qianglen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\reshuilu.resx">
+      <DependentUpon>reshuilu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\reshuixi.resx">
+      <DependentUpon>reshuixi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\shuifenghonggan.resx">
+      <DependentUpon>shuifenghonggan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\tuozhi.resx">
+      <DependentUpon>tuozhi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -299,6 +407,16 @@
     <None Include="Resources\fac.PNG" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\jifanglian1920.png" />
+    <None Include="Resources\jifanglian.png" />
+    <None Include="Resources\gg.png" />
+    <None Include="Resources\sg.png" />
+    <None Include="Resources\rg.png" />
+    <None Include="Resources\write1png.png" />
+    <None Include="Resources\write.png" />
+    <None Include="Resources\start.png" />
+    <None Include="Resources\stop.png" />
+    <None Include="Resources\start1.png" />
     <None Include="bin\Debug\firmwareFiles\images\productConfig1.png" />
     <Content Include="ConfigFile\auth.xml" />
     <None Include="Resources\关机 %281%29.png" />
